@@ -36,3 +36,25 @@
     transform: rotate(360deg);
   }
 }
+
+.mainFeatures{
+  position: relative;
+  color: #282c34;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-top: 12px;
+}
+
+.mainFeaturesPostContent{
+  position: relative;
+  padding: 100px 120px 50px 50px;
+}
+.overlay{
+  position: absolute;
+  top:0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-color: rgba(0,0,0,.3);
+}
